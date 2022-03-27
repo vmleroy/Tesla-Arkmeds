@@ -36,13 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Models\Outline.cs" />
      <Compile Include="Assets\UniGLTF\Samples\UniHumanoid\RuntimeBvhLoader.cs" />
+     <Compile Include="Assets\Scripts\Tesla\HighlightComponentController.cs" />
      <Compile Include="Assets\Scripts\Mouse\MouseTargetController.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
      <Compile Include="Assets\UniGLTF\Samples\UniHumanoid\HumanBuilderTest.cs" />
      <Compile Include="Assets\Scripts\Tesla\RotateObjectController.cs" />
-     <Compile Include="Assets\Scripts\Tesla\HighlightComponentController.cs" />
-     <Compile Include="Assets\QuickOutline\Scripts\Models\Outline.cs" />
-     <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
      <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon.shader" />
      <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_attribute.hlsl" />
      <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_vertex.hlsl" />
