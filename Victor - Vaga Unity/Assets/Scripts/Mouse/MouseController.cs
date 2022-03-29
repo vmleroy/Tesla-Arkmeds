@@ -31,8 +31,7 @@ public class MouseController : MonoBehaviour
 
     void MouseLeftClickEvent () {
         if (Input.GetMouseButtonDown(0)) {
-            if (lastComponentHit != null)
-                game.ChangeDescriptionField(lastComponentHit.name);
+            game.ChangeDescriptionField(lastComponentHit);
         }
     }
 

@@ -270,7 +270,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00014969, y: 45.502007}
+  m_AnchoredPosition: {x: -0.4, y: 43.1}
   m_SizeDelta: {x: 33.148, y: 7.3019}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &103241035
@@ -415,7 +415,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 61.0375, y: 117.74}
+  m_SizeDelta: {x: 57.667, y: 116.96}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &195030463
 GameObject:
@@ -587,8 +587,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000184, y: -58.87}
-  m_SizeDelta: {x: 61.038, y: 19.1242}
+  m_AnchoredPosition: {x: 0.00009679794, y: -58.48}
+  m_SizeDelta: {x: 57.667, y: 24.649}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &212545933
 MonoBehaviour:
@@ -612,7 +612,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Instrucoes:
 
-    Mouse1+Press  -> Rotaciona Tesla
+    BotaoEsq + Arrastar  -> Rotaciona Tesla
+
+    BotaoEsq
+    nos componentes -> Descricao
 
     Scroll -> Zoom'
   m_isRightToLeft: 0
@@ -641,8 +644,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 3.5
-  m_fontSizeBase: 3.5
+  m_fontSize: 3
+  m_fontSizeBase: 3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -691,6 +694,44 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 212545931}
   m_CullTransparentMesh: 1
+--- !u!1 &212973194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1362024947379381422, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &212973198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212973194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Pino ECG
+  description: Pino de conexao ECG para realizacao dos testes das partes aplicadas
+--- !u!1 &338315360 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8981815349042909631, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &338315364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338315360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Pino ECG
+  description: Pino de conexao ECG para realizacao dos testes das partes aplicadas
 --- !u!1 &541319362
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,7 +865,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menu
+  m_text: 'Menu e Instrucoes
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -851,8 +894,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -901,6 +944,44 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577628139}
   m_CullTransparentMesh: 1
+--- !u!1 &690551341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6690171260805052407, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &690551345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690551341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Pino ECG
+  description: Pino de conexao ECG para realizacao dos testes das partes aplicadas
+--- !u!1 &728691364 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6639812656206425064, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &728691368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728691364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Tomada
+  description: Tomada para conectar equipamentos de teste
 --- !u!1 &749850073
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,6 +1117,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749850073}
   m_CullTransparentMesh: 1
+--- !u!1 &768890729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3623016333844511862, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &768890733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768890729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Borne 5mm
+  description: Cabo de entrada banana-banana para realizacao de teste de resistencia
+    de isolamento (passando ate 500V de corrente continua)
 --- !u!1 &798733611
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,6 +1181,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &832801667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1414569671135493371, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &832801671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832801667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Pino ECG
+  description: Pino de conexao ECG para realizacao dos testes das partes aplicadas
 --- !u!1 &926799517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,6 +1362,25 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+--- !u!1 &975424542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8666249670943890242, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &975424546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975424542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Pino ECG
+  description: Pino de conexao ECG para realizacao dos testes das partes aplicadas
 --- !u!1 &981774105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,6 +1459,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981774105}
   m_CullTransparentMesh: 1
+--- !u!1 &1052868913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7970359768956060924, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1052868917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052868913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Pino ECG
+  description: Pino de conexao ECG para realizacao dos testes das partes aplicadas
 --- !u!1 &1070846892
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,8 +1490,9 @@ GameObject:
   - component: {fileID: 1070846896}
   - component: {fileID: 1070846895}
   - component: {fileID: 1070846894}
+  - component: {fileID: 1070846897}
   m_Layer: 5
-  m_Name: CanvasGeral
+  m_Name: MainCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1394,7 +1553,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1280, y: 720}
+  m_ReferenceResolution: {x: 1024, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
@@ -1423,6 +1582,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
+--- !u!114 &1070846897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070846892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cbdb27862c0f9343b1e3a099626742c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1078591775
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,6 +1729,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078591775}
   m_CullTransparentMesh: 1
+--- !u!1 &1091816580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4214309567827630522, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1091816584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091816580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Tela
+  description: Display touch que mostra as configuracoes e testes do Tesla
+--- !u!1 &1276435103 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1791950520298625548, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1276435107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276435103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Conector de parede XLR
+  description: Conexao para realizacao dos testes de resistencia e aterramento
+--- !u!1 &1283548599 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6110890066176914812, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1283548603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283548599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Pino ECG
+  description: Pino de conexao ECG para realizacao dos testes das partes aplicadas
+--- !u!1 &1296252796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880703102600600252, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1296252800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296252796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Tomada
+  description: Tomada tripolar para conectar equipamentos de teste
 --- !u!1 &1311541510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,7 +1856,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   descriptionField: {fileID: 1332202804}
-  active: 0
 --- !u!1 &1332202802
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,8 +1891,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3.5859985}
-  m_SizeDelta: {x: 0, y: -7.1716}
+  m_AnchoredPosition: {x: 0, y: -2.7700005}
+  m_SizeDelta: {x: -2.3348, y: -8.804}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1332202804
 MonoBehaviour:
@@ -1668,11 +1914,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed dolor ornare
-    ante porttitor pharetra et at augue. Etiam tempus arcu sed auctor ornare. Donec
-    vitae nunc et velit efficitur congue vitae non metus. Aenean lacinia vehicula
-    mattis. Morbi nibh velit, sagittis et nibh eget, sodales aliquam enim. In eleifend
-    dolor eu dui sollicitudin mattis.
+  m_text: Ao clicar com o botao esquerdo do mouse no componente descatado desejado,
+    aparecera a descricao deste neste quadrado.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1786,8 +2029,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.00030517578, y: 0.000030517578}
-  m_SizeDelta: {x: 45.606995, y: 37.92801}
+  m_AnchoredPosition: {x: 0.00048828125, y: 0}
+  m_SizeDelta: {x: 75.156, y: 46.921}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1361543056
 MonoBehaviour:
@@ -1895,6 +2138,44 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361543054}
   m_CullTransparentMesh: 1
+--- !u!1 &1407867778 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6130779869094337629, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1407867782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407867778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Pino ECG
+  description: Pino de conexao ECG para realizacao dos testes das partes aplicadas
+--- !u!1 &1430241821 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3351152951658732281, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1430241825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430241821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Power button
+  description: Botao de ligar o Tesla
 --- !u!1 &1492239981
 GameObject:
   m_ObjectHideFlags: 0
@@ -1983,6 +2264,25 @@ MonoBehaviour:
   zoomSpeed: 150
   zoomInMax: 26
   zoomOutMax: 60
+--- !u!1 &1550472020 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3320086110615326246, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1550472024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550472020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Pino ECG
+  description: Pino de conexao ECG para realizacao dos testes das partes aplicadas
 --- !u!1 &1605729570
 GameObject:
   m_ObjectHideFlags: 0
@@ -2022,8 +2322,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.000015258789}
+  m_SizeDelta: {x: 0, y: 0.000045776}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1605729572
 MonoBehaviour:
@@ -2144,7 +2444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00014736, y: 38.2}
+  m_AnchoredPosition: {x: -0.4, y: 35.798}
   m_SizeDelta: {x: 33.148, y: 7.3019}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1630418205
@@ -2241,6 +2541,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630418203}
   m_CullTransparentMesh: 1
+--- !u!1 &1775751588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 22833091720567109, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1775751592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775751588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: AC power
+  description: Conexao da fonte do Tesla. Possui gavetinha contendo o fusivel de
+    protecao do equipamento. O fusivel pode ser facilmente trocado
 --- !u!1 &1812603714
 GameObject:
   m_ObjectHideFlags: 0
@@ -2274,6 +2594,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1877246352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2296697171182367288, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+  m_PrefabInstance: {fileID: 7272934206024477061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1877246356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877246352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d41837b9697b5d4e9e9287c544633be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentName: Pino ECG
+  description: Pino de conexao ECG para realizacao dos testes das partes aplicadas
 --- !u!1 &1878457349
 GameObject:
   m_ObjectHideFlags: 0

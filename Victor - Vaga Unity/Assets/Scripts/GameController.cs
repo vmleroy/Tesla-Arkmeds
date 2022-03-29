@@ -7,9 +7,12 @@ public class GameController : MonoBehaviour
 
     [SerializeField] Canvas mainCanvas;
 
-    public void ChangeDescriptionField(string description) {
+    public void ChangeDescriptionField(GameObject lastComponentHit) {
         DescriptionController descriptionComponent = mainCanvas.GetComponentInChildren<DescriptionController>();
-        descriptionComponent.ChangeText(description);
+        if (lastComponentHit != null) {
+            ComponentSpecs component = lastComponentHit.GetComponent<ComponentSpecs>();
+            descriptionComponent.ChangeText($"{component.componentName}:\n{component.description}");
+        }
     }
 
 }
