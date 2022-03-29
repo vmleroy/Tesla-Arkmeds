@@ -702,8 +702,9 @@ GameObject:
   - component: {fileID: 541319364}
   - component: {fileID: 541319365}
   - component: {fileID: 541319366}
+  - component: {fileID: 541319367}
   m_Layer: 0
-  m_Name: Mouse
+  m_Name: GameMananger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -717,7 +718,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541319362}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0056340843, y: 0.12910767, z: 0.00015646219}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -733,12 +734,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 541319362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 468d7a208550fe64c9e4b342f17fca5b, type: 3}
+  m_Script: {fileID: 11500000, guid: 87ebf1293d9b8ff48aacb4d02fe593d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   teslaComponentsLayerMask:
     serializedVersion: 2
     m_Bits: 128
+  game: {fileID: 541319367}
 --- !u!114 &541319366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -751,6 +753,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71e5c1860f4a64341a3057a5b6634965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &541319367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541319362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29a77c9cfe4053d458411d2102bb2265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCanvas: {fileID: 1070846896}
 --- !u!1 &577628139
 GameObject:
   m_ObjectHideFlags: 0
@@ -1593,6 +1608,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16ddcc94a674e244bbefd816fbb30673, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  descriptionField: {fileID: 1332202804}
+  active: 0
 --- !u!1 &1332202802
 GameObject:
   m_ObjectHideFlags: 0
@@ -1925,7 +1942,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9094827, y: 1}
+    m_SensorSize: {x: 1.807504, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

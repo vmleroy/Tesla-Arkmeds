@@ -19,6 +19,7 @@ public class MouseSearchTeslaComponents : MonoBehaviour
                     lastObjectHit.GetComponent<HighlightComponentController>().DisableHighlight();
                 }
             }
+            lastObjectHit = null;
         }
         return lastObjectHit;
     }

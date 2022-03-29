@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class DescriptionController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    [SerializeField] TMPro.TextMeshProUGUI descriptionField;
+    public bool active = false;   
+    
+    public void ChangeText (string text) {
+        descriptionField.text = text;
+    }
+    public void ActivateDescriptionField() {
+        gameObject.SetActive(true);
+    }
+    public void DeactivateDescriptionField() {
+        gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
