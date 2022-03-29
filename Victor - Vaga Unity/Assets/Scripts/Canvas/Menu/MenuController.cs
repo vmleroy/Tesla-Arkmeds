@@ -4,16 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
-{
-    void RestartButton() {
-        SceneManager.LoadScene("SampleScene");
+{    
+    public void TelaButton () {
+        SceneManager.LoadScene("Tela");
+        Debug.Log("Loading Tela scene...");
     }
-    
-    void TelaButton () {
-
-    }
-
-    void TeslaButton () {
-        
+    public void TeslaButton () {
+        SceneManager.LoadScene("Tesla");
+        Debug.Log("Loading Tesla scene...");
     }
 }
