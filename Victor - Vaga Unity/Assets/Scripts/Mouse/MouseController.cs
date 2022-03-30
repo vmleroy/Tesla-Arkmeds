@@ -17,7 +17,7 @@ public class MouseController : MonoBehaviour
     
     void Update() {
         MouseRaycast();
-        MouseLeftClickEvent();
+        game.ChangeDescriptionField(lastComponentHit);
     }
 
     void MouseRaycast() {
@@ -27,12 +27,6 @@ public class MouseController : MonoBehaviour
             Debug.Log($"mouse collision: {targetObjectHit.collider.name}\n   name: {targetObjectHit.transform.parent}");            
         }
         lastComponentHit = mSearchComponents.SearchTeslaComponentsWithRaycast(targetObjectHit, lastComponentHit);
-    }
-
-    void MouseLeftClickEvent () {
-        if (Input.GetMouseButtonDown(0)) {
-            game.ChangeDescriptionField(lastComponentHit);
-        }
     }
 
 }

@@ -39,7 +39,9 @@
      <Compile Include="Assets\UniGLTF\Samples\UniHumanoid\RuntimeBvhLoader.cs" />
      <Compile Include="Assets\Scripts\Models\TeslaComponents\HighlightComponentController.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Models\TeslaComponents\ComponentSpecs.cs" />
      <Compile Include="Assets\UniGLTF\Samples\UniHumanoid\HumanBuilderTest.cs" />
+     <Compile Include="Assets\Scripts\Canvas\MainCanvasController.cs" />
      <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\Canvas\Description\DescriptionController.cs" />
@@ -47,8 +49,6 @@
      <Compile Include="Assets\Scripts\Mouse\MouseController.cs" />
      <Compile Include="Assets\Scripts\Canvas\Menu\MenuController.cs" />
      <Compile Include="Assets\Scripts\Models\RotateObjectController.cs" />
-     <Compile Include="Assets\Scripts\Models\TeslaComponents\ComponentSpecs.cs" />
-     <Compile Include="Assets\Scripts\Canvas\MainCanvasController.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon.shader" />

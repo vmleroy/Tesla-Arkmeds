@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MainCanvasController : MonoBehaviour
 {
+
+    [SerializeField] GameObject descriptionMenu;
+
     public void ActivateDescriptionField() {
-        gameObject.GetComponentInChildren<DescriptionController>().gameObject.SetActive(true);
+        descriptionMenu.SetActive(true);
     }
     public void DeactivateDescriptionField() {
-        gameObject.GetComponentInChildren<DescriptionController>().gameObject.SetActive(false);
+        descriptionMenu.SetActive(false);
     }
 }

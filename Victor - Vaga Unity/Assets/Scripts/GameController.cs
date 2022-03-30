@@ -10,8 +10,11 @@ public class GameController : MonoBehaviour
     public void ChangeDescriptionField(GameObject lastComponentHit) {
         DescriptionController descriptionComponent = mainCanvas.GetComponentInChildren<DescriptionController>();
         if (lastComponentHit != null) {
+            mainCanvas.GetComponent<MainCanvasController>().ActivateDescriptionField();
             ComponentSpecs component = lastComponentHit.GetComponent<ComponentSpecs>();
             descriptionComponent.ChangeText($"{component.componentName}:\n{component.description}");
+        } else {
+            mainCanvas.GetComponent<MainCanvasController>().DeactivateDescriptionField();
         }
     }
 
