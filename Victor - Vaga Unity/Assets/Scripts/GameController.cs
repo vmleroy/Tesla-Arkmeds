@@ -12,8 +12,8 @@ public class GameController : MonoBehaviour
         if (lastComponentHit != null) {
             mainCanvas.GetComponent<MainCanvasController>().ActivateDescriptionField();
             ComponentSpecs component = lastComponentHit.GetComponent<ComponentSpecs>();
-            descriptionComponent.ChangeText($"{component.componentName}:\n{component.description}");
-        } else {
+            descriptionComponent.ChangeText($"{component.componentName}", $"{component.description}");
+        } else { 
             mainCanvas.GetComponent<MainCanvasController>().DeactivateDescriptionField();
         }
     }
