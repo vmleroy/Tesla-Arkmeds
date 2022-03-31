@@ -1,16 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {    
+
+    [SerializeField] SceneController scenes;
+    [SerializeField] GameController game;
+
+    public void ResetButton() {
+        scenes.ResetActiveScene();
+    }
+
+    public void CloseGameButton() {
+        game.CloseGame();
+    }
+
     public void TelaButton () {
-        SceneManager.LoadScene("Tela");
-        Debug.Log("Loading Tela scene...");
+        scenes.LoadTelaScene();
     }
+
     public void TeslaButton () {
-        SceneManager.LoadScene("Tesla");
-        Debug.Log("Loading Tesla scene...");
+        scenes.LoadTeslaScene();
     }
+
 }

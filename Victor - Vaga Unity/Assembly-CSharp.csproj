@@ -37,13 +37,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\UniGLTF\Samples\UniHumanoid\RuntimeBvhLoader.cs" />
-     <Compile Include="Assets\Scripts\Models\TeslaComponents\HighlightComponentController.cs" />
+     <Compile Include="Assets\Scripts\Models\HighlightComponentController.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
      <Compile Include="Assets\Scripts\Models\TeslaComponents\ComponentSpecs.cs" />
      <Compile Include="Assets\UniGLTF\Samples\UniHumanoid\HumanBuilderTest.cs" />
      <Compile Include="Assets\Scripts\Canvas\MainCanvasController.cs" />
      <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
-     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\GameManager\GameController.cs" />
+     <Compile Include="Assets\Scripts\GameManager\SceneController.cs" />
      <Compile Include="Assets\Scripts\Canvas\Description\DescriptionController.cs" />
      <Compile Include="Assets\Scripts\Mouse\MouseSearchTeslaComponents.cs" />
      <Compile Include="Assets\Scripts\Mouse\MouseController.cs" />
