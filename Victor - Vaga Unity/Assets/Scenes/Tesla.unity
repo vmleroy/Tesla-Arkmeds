@@ -1903,7 +1903,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1280, y: 720}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
@@ -3873,6 +3873,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2443300285155829733, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953543458961626062, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3698558587839502828, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122437369187579606, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4496582923105759906, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3917,9 +3933,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5130549497951589801, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211401939879063407, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5477571705554799292, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5793139632080112038, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6301515449521018049, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7550330913228618870, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
       propertyPath: m_Name
       value: Tesla
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593246743945841759, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8885222486874616794, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6ff4bfe8ee7f624199497722e5dff4d, type: 3}
