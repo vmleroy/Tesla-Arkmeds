@@ -14,10 +14,4 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("Tesla");
         Debug.Log("Loading Tesla scene...");
     }
-
-    public void LoadTelaScene() {
-        SceneManager.LoadScene("Tela");
-        Debug.Log("Loading Tela scene...");
-    }
-
 }

@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
 
     public void CloseGame() {
         Application.Quit();
+        Debug.Log("Closing game...");
     }
     
     public void ChangeDescriptionField(GameObject lastComponentHit) {

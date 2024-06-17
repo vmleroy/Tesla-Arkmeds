@@ -16,10 +16,6 @@ public class MenuController : MonoBehaviour
         game.CloseGame();
     }
 
-    public void TelaButton () {
-        scenes.LoadTelaScene();
-    }
-
     public void TeslaButton () {
         scenes.LoadTeslaScene();
     }
